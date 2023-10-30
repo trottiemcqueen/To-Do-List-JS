@@ -13,14 +13,18 @@ function createListElement() {
   input.value = "";
 }
 
-button.addEventListener("click", function() {
+function addListafterClick() {
   if (inputLength() > 0) {
     createListElement();
   }
-})
+}
 
-input.addEventListener("keydown", function(event) {
+function addListafterkeydown(event) {
   if (inputLength() > 0 && event.key === "Enter") {
-    createListElement();
+  createListElement();
   }
-})
+}
+
+button.addEventListener("click", addListafterClick)
+
+input.addEventListener("keydown", addListafterkeydown)
