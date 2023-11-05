@@ -3,6 +3,14 @@ h1 {
   
 }
 
+.container {
+  border: solid gray 2px;
+}
+
+.container-1 {
+  border: solid gray 2px;
+}
+
 .class-1 {
   box-shadow: inset 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
   font-size: 1.5rem;
@@ -14,11 +22,19 @@ h1 {
 }
 
 #input {
-  width: 3em;
+  width: 15em;
+  border-radius: 25px;
+  height: 2em;
 }
 
 #submit {
-  width: 3em;
+  width: 15em;
   border-radius: 25px;
+  height: 2em;
+}
 
+#submit:hover {
+  background-color: lightcoral;
+  box-shadow: inset 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
+  color: aliceblue;
 }
