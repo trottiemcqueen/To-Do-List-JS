@@ -12,3 +12,13 @@ h1 {
   box-shadow: inset 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
   font-size: 1.5rem;
 }
+
+#input {
+  width: 3em;
+}
+
+#submit {
+  width: 3em;
+  border-radius: 25px;
+
+}
