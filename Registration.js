@@ -3,6 +3,12 @@ var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 
+function showAttribute() {
+  const el = document.querySelector("img");
+  const paragraph = document.querySelector("p");
+  paragraph.innerText = el.src;
+}
+
 function styleBackground() {
   body.style.background = 
     "linear-gradient(to right, " 
